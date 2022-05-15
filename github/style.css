@@ -1,0 +1,100 @@
+html   {
+  background-image: url('back.jpg');
+  max-width: 920px;
+  margin: 0 auto;
+  font-family: Alegreya;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/alegreya.woff') format('woff');
+}
+
+main {
+  margin: 0 3%;
+}
+
+h1, h2, h3, h4 {
+  font-style: italic;
+}
+
+h1 a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1, h2 {
+  margin: 0 3%;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+body {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2% 8%;
+  background-image: url('background.jpg');
+  border-left: solid 3px whitesmoke;
+  border-right: solid 3px whitesmoke;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 20px -2em 0 -2em;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  background: seagreen;
+  border: 3px solid whitesmoke;
+  border-radius: 9px;
+  padding: 3px 8px;
+    }
+
+li a {
+  color: whitesmoke;
+}
+
+li a:visited {
+  color: whitesmoke;
+}
+    
+li.current {
+  background-color:#c48693;
+}
+
+li.active {
+  background-color: #883b4a;
+}
+
+li:hover {
+  background-color: #c12844;
+}
+
+a:visited {
+  color: #961b6d;
+  text-decoration: none;
+}
+
+a {
+  color: #c12844;
+  text-decoration: none;
+}
