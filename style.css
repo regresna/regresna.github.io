@@ -14,7 +14,17 @@ html   {
 
 @font-face {
   font-family: 'Alegreya';
-  src: url('/alegreya.woff') format('woff');
+  src: url('/alegreya-.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/alegreya-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/alegreya-italic.woff2') format('woff2');
 }
 
 main {
